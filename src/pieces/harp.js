@@ -1,12 +1,12 @@
 import randomizedArpeggiator from '../patterns/randomized-arpeggiator';
 import notes from '../note-sets/music-for-airportsish';
 
-const INSTRUMENT = 'vco2-piano-mf';
-const MIN_REPEAT_S = 20;
-const MAX_REPEAT_S = 60;
+const INSTRUMENT = 'vco2-harp';
+const MIN_REPEAT_S = 10;
+const MAX_REPEAT_S = 30;
 
 export default (master, log) => {
-  log('eno machine');
+  log('harp');
   return randomizedArpeggiator(
     notes,
     INSTRUMENT,
